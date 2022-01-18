@@ -34,12 +34,12 @@ button4 = tk.Button(window,text="Next >", bg = "white")
 labeld.grid(row=0, column = 1, rowspan = 2)
 label2.grid(row=3, column = 1)
 entry1.grid(row=4, column = 1)
-button2.grid(row = 5, column = 1)
+button2.grid(row = 5, column = 1, sticky = W)
 
 label3.grid(row=3, column = 2)
 entry2.grid(row=4, column = 2)
 
-label1.grid(row=1, column = 3)
+label1.grid(row=0, column = 3,rowspan = 2) #row1 rowspan 0
 label4.grid(row=3, column = 3)
 entry3.grid(row=4, column = 3)
 button3.grid(row = 5, column = 3)
